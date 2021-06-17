@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+header {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.link-container {
+  padding-right: 15px;
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+.link:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.avatar-initials {
+  color: #ffffff;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 272px;
+  margin-bottom: 32px;
+}
+
+.input {
+  width: 482px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  padding: 0 24px 0;
+  font-size: 16px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-bottom: 18px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222222;
+}
+
+.button + .button {
+  margin-left: 8px;
+}
+
+.hint {
+  color: #222222;
+  line-height: 28px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+.hint-link {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  padding: 0 4px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.hint-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #f2f2f2;
+}
+
+.line {
+  border-top: 1px solid #e4e4e4;
+  padding: 0 30px;
+}
+
+.text {
+  line-height: 40px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.text + .text {
+  margin-left: 30px;
+}
